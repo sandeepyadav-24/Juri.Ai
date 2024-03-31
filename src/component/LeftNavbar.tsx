@@ -1,7 +1,7 @@
 import Image from "next/image";
 const LeftNavbar = () => {
   return (
-    <div className="md:w-1/5  px-5 bg-[#F9F9F9] h-screen">
+    <div className=" md:w-1/5 px-5 bg-[#F9F9F9] h-screen">
       <div className="Profile py-5">
         <div className="flex flex-row px-1 py-3">
           <Image
