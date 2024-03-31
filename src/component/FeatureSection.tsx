@@ -28,7 +28,7 @@ const feature = [
 ];
 const FeatureSection = () => {
   return (
-    <div className="mx-20">
+    <div className="mx-5 md:mx-20">
       <div className="text-3xl font-bold text-center">Our Platform Feature</div>
       <div className="flex md:flex-row flex-col flex-wrap  ">
         {feature.map((e, index) => {

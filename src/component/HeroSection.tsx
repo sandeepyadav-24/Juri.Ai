@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <div className="mx-60 my-20">
+    <div className="mx-5 md:mx-60 my-20">
       <h1 className="text-center text-4xl font-bold">
         Revolutionize Legal Workflows with AI-Driven Contract Generation &
         Document

@@ -1,7 +1,7 @@
 const CallToAction = () => {
   return (
-    <div className="flex flex-row mx-20 my-10">
-      <div className="w-3/5 px-10 py-20">
+    <div className="flex flex-col md:flex-row md:mx-20 mx-5 my-10">
+      <div className="md:w-3/5 px-10 py-20">
         <h1 className="text-4xl font-bold px-5">
           Experience the future of{" "}
           <span className="font-poppins font-sans  tracking-wider bg-gradient-to-b from-transparent to-yellow-200">
@@ -20,7 +20,7 @@ const CallToAction = () => {
           Sign Up
         </button>
       </div>
-      <div className="w-2/5 ">
+      <div className="md:w-2/5 ">
         <div className="bg-[#E2EFFD] rounded-lg px-3 py-10 my-20 ">
           <div className="font-semibold text-3xl">How much time you save?</div>
           <div>
